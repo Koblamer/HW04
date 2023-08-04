@@ -1,0 +1,126 @@
+body{
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.94) ,rgb(46, 205, 237),rgb(71, 219, 249) ,rgb(255, 239, 239));
+    /* background-image:linear-gradient(180deg,rgb(255, 255, 255),rgb(241, 202, 202) ,rgb(255, 182, 182)); */
+    /* background-image: repeating-linear-gradient(45deg, yellow); */
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto Thin', sans-serif;
+    font-family: 'Roboto Light', sans-serif;
+    font-family: 'Roboto Medium', sans-serif;
+    font-family: 'Roboto Black', sans-serif; */
+
+}
+
+.font50 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.font40 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.font25 {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .clickMeButton {
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+  }
+  .clickMeButton:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(255, 213, 0, 0.5);
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+  }
+  .clickMeButton span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .clickMeButton svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .clickMeButton:hover:before {
+    width: 100%;
+    background: #ffdd00;
+  }
+  .clickMeButton:hover svg {
+    transform: translateX(0);
+  }
+  .clickMeButton:active {
+    transform: scale(0.96);
+  }
+
+  .loadingBar {
+    height: 10px;
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 20px;
+  }
+
+  .container {
+    height: 10px;
+    width: 500px;
+    background-color: #ffdd00;
+    border-radius: 20px;
+  }
+  .center {
+    display: flex;
+  justify-content: center;
+  }
+
+  .margin {
+    margin: 0 0.5rem;
+  }
+
+
+  .paddingY{
+    padding: 3rem 0;
+  }
+
+  .paddingTop{
+    padding-top: 50px;
+  }
+
+ 
